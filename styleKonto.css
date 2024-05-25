@@ -1,0 +1,244 @@
+    *{
+        margin:0px;
+        padding:0px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        
+    }
+
+    img{
+    background-color: rgb(174, 200, 236);
+    }
+    #upPart{
+        display:flex;
+        background-color: rgb(174, 200, 236);
+        height:50px;
+        padding-left:40px;
+    }
+    .up{
+        margin-right:90px;
+        text-decoration: none;
+        margin-top:5px;
+        font-size: 30px;
+        display:flex;
+        color:darkblue;
+        font-weight: 100;
+      }
+      #konto{
+      color: white;
+      }
+      #logo{
+      color: white;
+      margin-left:20px; 
+      margin-right: 70px;
+      font-weight: 700;
+      
+    }
+    #google{
+    height:45px;
+    width:150px;
+    border-radius:10%;
+    border: 1px solid white;
+    }
+    #app{
+    height:44px;
+    width:150px;
+    border: 1.3px solid rgb(144, 141, 141);
+    border-radius:6.5px;
+    }
+    a{
+    text-decoration: none;
+    }
+    #downPart{
+    width: 100%;
+    background-color:rgb(12, 4, 60); 
+    height:330px;
+    }
+   
+    
+    h4{
+    color:white;
+    margin-left: 10px;
+    
+    }
+    #applikacje{
+    padding-left:5px;
+    }
+    #logos{
+    display:flex;
+    }
+    p{
+    color:white;
+    margin-top: -24px;
+    margin-left:3px;
+    }
+    .img{
+    border-radius:50%;
+    margin-left:5px;
+    position:relative;
+    transition-duration: 2s;
+    transition: ease-in;
+    height:40px;
+    width:40px;
+
+    }
+    .img:hover{
+    height:45px;
+    width:45px;
+    margin-top:-5px;
+    }
+    #mainPart{
+    width:90%;
+    height:1600px;
+    margin-left:80px;
+    text-align:center;
+    }
+    #mainPartForm {
+    width: 300px;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 2px solid blue; 
+    }
+
+    
+    
+    #formularz
+    {
+    background-color: rgb(174, 200, 236);
+    font-size: 35px;
+    width:400px;
+    margin-left: 360px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid dark;
+    height: 263px;
+    color:white;
+    
+    }
+    #formularz input{
+        border: 1px solid darkblue;
+        border-radius: 3px;
+    }
+    #formularz button{
+        margin-top:30px;
+        color: rgb(255, 255, 255);
+        background-color:darkblue;
+        border:1px solid rgb(255, 255, 255);
+        padding:3px;
+        height:30px;
+        width:100px;
+        font-weight: bold;
+        border-radius: 40px;
+    }
+    body{
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+    }
+    #input
+    {
+    
+    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    }
+    #mainPart
+    {
+    height:300px;
+    width: 100%;
+ 
+    }
+  option{
+       
+        background-color: rgb(174, 200, 236);
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight:bold;
+        padding:5px;
+      }
+     select{
+        background-color:rgb(174, 200, 236);
+        color: rgb(255, 255, 255);
+        padding:4px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        font-weight:bolder;
+      }
+    #submit{
+    color:black;
+    width: 100px;
+    height:30px;
+    border-radius: 20px;
+    border:1,5px solid black;
+    background-color:rgb(174, 200, 236);
+    }
+    a{
+        color: rgb(255, 255, 255);
+        font-size:20px;
+         padding-bottom: 50px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+    }
+   
+    @media only screen and (max-width: 600px) {
+        *{
+          margin:0px;
+          padding:0px;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+          
+      }
+      
+      
+      #upPart{
+          display:flex;
+          background-color: rgb(174, 200, 236);
+          height:30px;
+          padding-left:5px; /* Уменьшаем отступ для мобильных устройств */
+      }
+      
+      .up{
+          margin-right:2px; /* Уменьшаем отступ для мобильных устройств */
+          text-decoration: none;
+          margin-top:5px;
+          font-size: 18px; /* Уменьшаем размер шрифта для мобильных устройств */
+          display:flex;
+          color:darkblue;
+          font-weight: 100;
+          margin-left:15px;
+      }
+      #logo{
+        color: white;
+        margin-left:2px;/* Уменьшаем отступ для мобильных устройств */
+        font-weight: 700;
+        margin-right:3px;
+    }
+    
+    #google{
+        height:35px; /* Уменьшаем высоту кнопки для мобильных устройств */
+        width:100px; /* Уменьшаем ширину кнопки для мобильных устройств */
+        border-radius:5%; /* Уменьшаем радиус закругления для мобильных устройств */
+        border: 1px solid white;
+    }
+    
+    #app{
+        height:35px; /* Уменьшаем высоту кнопки для мобильных устройств */
+        width:100px; /* Уменьшаем ширину кнопки для мобильных устройств */
+        border: 1px solid rgb(144, 141, 141);
+        border-radius:6.5px;
+    }
+  
+    #downPart{
+        width: 100%;
+        margin-top:50px;
+        background-color:rgb(12, 4, 60); 
+        height:330px; /* Уменьшаем высоту для мобильных устройств */
+    }
+    #formularz{
+        background-color: rgb(174, 200, 236);
+        margin: 20px 500px 20px -50px;
+        padding: 10px;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 20px;
+        width: 400px;
+        font-size: 30px;
+        color: white;
+        }
+}

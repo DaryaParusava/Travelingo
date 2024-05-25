@@ -1,0 +1,416 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+}
+
+img{
+  background-color: rgb(174, 200, 236);
+}
+#upPart{
+    display:flex;
+    background-color: rgb(174, 200, 236);
+    height:50px;
+    padding-left:40px;
+}
+.up{
+    margin-right:90px;
+    text-decoration: none;
+    margin-top:5px;
+    font-size: 30px;
+    display:flex;
+    color:darkblue;
+    font-weight: 100;
+  }
+#konto{
+ color: white;
+}
+#logo{
+  color: white;
+  margin-left:20px; 
+  margin-right: 70px;
+  font-weight: 700;
+}
+#google{
+  height:45px;
+  width:150px;
+  border-radius:10%;
+  border: 1px solid white;
+}
+#app{
+  height:44px;
+  width:150px;
+  border: 1.3px solid rgb(144, 141, 141);
+  border-radius:6.5px;
+}
+a{
+  text-decoration: none;
+}
+#downPart{
+  width: 100%;
+  background-color:rgb(12, 4, 60); 
+  height:250px;
+}
+#iframes{
+  margin-right: 200px;
+}
+h4{
+  color:white;
+  margin-left: 10px;
+ 
+}
+
+#applikacje{
+  padding-left:5px;
+  width:40%;
+}
+#logos{
+  display:flex;
+}
+p{
+  color:white;
+  margin-top: -24px;
+  margin-left:3px;
+}
+.img{
+  border-radius:50%;
+  margin-left:5px;
+  position:relative;
+  transition-duration: 2s;
+  transition: ease-in;
+  height:40px;
+  width:40px;
+
+}
+.img:hover{
+  height:45px;
+  width:45px;
+  margin-top:-5px;
+}
+#mainPart{
+  width:90%;
+  margin-left:80px;
+  text-align:center;
+  margin-bottom:20px;
+}
+#mainPartForm {
+  width: 300px; /* Ширина блока */
+  margin: 0 auto; /* Центрирование по горизонтали */
+  padding: 20px;
+  border: 2px solid blue; /* Синяя рамка */
+}
+
+#text{
+  margin-top:30px;
+  text-align: center;
+  margin-left:40px;
+}
+h6{
+  padding: 0px 30px 0px 30px;
+  color:rgb(0, 0, 0);
+}
+h5{
+  color:rgb(2, 2, 97);
+  font-size:25px;
+}
+h6{
+  font-size:18px;
+}
+#anim{
+  height:310px;
+}
+#polecane{
+  height:300px;
+  width:70%;
+  align-items:center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(174, 200, 236);
+  margin-top:30px;
+  margin-left:180px;
+}
+td{
+  background-color:rgb(174, 200, 236);
+  height:70px;
+  width:1000px;
+  padding: 2px;
+  font-size:20px;
+  font-weight:bold;
+  color:darkblue;
+  padding-top:5px;
+  border-radius:20px;
+}
+a{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+}
+#a{
+transition: 0.4s;
+}
+#a:hover{
+  color:darkblue;
+  font-weight: bold;
+}
+table{
+  border-spacing: 30px;
+}
+.buttPolec{
+  height:50px;
+  width:100px;
+  border: 3px solid rgba(255, 255, 255, 0);
+  background-color:rgb(6, 22, 115);
+  border-radius:15px;
+  text-align:center;
+  margin-left:80px;
+  font-size:15px;
+  transition: 0.3s;
+}
+.buttPolec:hover{
+   background-color: white;
+   color:darkblue;
+
+}
+#BP1{
+  margin-left:65px;
+}
+#BP2{
+  margin-left:75px;
+}
+h1{
+  margin:20px;
+  color:darkblue;
+}
+@media only screen and (max-width: 600px) {
+  *{
+    margin:0px;
+    padding:0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+}
+
+img{
+    background-color: rgb(174, 200, 236);
+}
+
+#upPart{
+    display:flex;
+    background-color: rgb(174, 200, 236);
+    height:30px;
+    padding-left:5px; /* Уменьшаем отступ для мобильных устройств */
+}
+
+.up{
+    margin-right:2px; /* Уменьшаем отступ для мобильных устройств */
+    text-decoration: none;
+    margin-top:5px;
+    font-size: 18px; /* Уменьшаем размер шрифта для мобильных устройств */
+    display:flex;
+    color:darkblue;
+    font-weight: 100;
+    margin-left:15px;
+}
+
+#konto{
+    color: white;
+}
+
+#logo{
+    color: white;
+    margin-left:2px;/* Уменьшаем отступ для мобильных устройств */
+    font-weight: 700;
+    margin-right:3px;
+}
+
+#google{
+    height:35px; /* Уменьшаем высоту кнопки для мобильных устройств */
+    width:100px; /* Уменьшаем ширину кнопки для мобильных устройств */
+    border-radius:5%; /* Уменьшаем радиус закругления для мобильных устройств */
+    border: 1px solid white;
+}
+
+#app{
+    height:35px; /* Уменьшаем высоту кнопки для мобильных устройств */
+    width:100px; /* Уменьшаем ширину кнопки для мобильных устройств */
+    border: 1px solid rgb(144, 141, 141);
+    border-radius:6.5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#downPart{
+    width: 100%;
+    background-color:rgb(12, 4, 60); 
+    height:170px; /* Уменьшаем высоту для мобильных устройств */
+}
+
+#iframes{
+    margin-right: 50px; /* Уменьшаем отступ для мобильных устройств */
+}
+
+h4{
+    color:white;
+    margin-left: 10px;
+}
+
+#applikacje{
+    padding-left:5px;
+    width:80%; /* Увеличиваем ширину блока для мобильных устройств */
+}
+
+#logos{
+    display:flex;
+}
+
+p{
+    color:white;
+    margin-top: -24px;
+    margin-left:3px;
+}
+
+.img{
+    border-radius:50%;
+    margin-left:5px;
+    position:relative;
+    transition-duration: 2s;
+    transition: ease-in;
+    height:30px; /* Уменьшаем высоту изображения для мобильных устройств */
+    width:30px; /* Уменьшаем ширину изображения для мобильных устройств */
+}
+
+.img:hover{
+    height:35px; /* Увеличиваем высоту при наведении для мобильных устройств */
+    width:35px; /* Увеличиваем ширину при наведении для мобильных устройств */
+    margin-top:-5px;
+}
+
+#mainPart{
+    width:90%;
+    margin-left:15px; /* Уменьшаем отступ для мобильных устройств */
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#mainPartForm {
+    width: 250px; /* Уменьшаем ширину блока для мобильных устройств */
+    margin: 10 auto; /* Центрируем по горизонтали */
+    padding: 15px; /* Уменьшаем отступы внутри блока для мобильных устройств */
+    border: 2px solid blue; /* Синяя рамка */
+}
+
+#text{
+    margin-top:10px; /* Уменьшаем отступ для мобильных устройств */
+    text-align: center;
+    margin-left:5px; 
+    font-size:10px;/* Уменьшаем отступ для мобильных устройств */
+}
+
+h6{
+    padding: 0px 15px 0px 15px; /* Уменьшаем отступы для мобильных устройств */
+    color:rgb(0, 0, 0);
+}
+
+h5{
+    color:rgb(2, 2, 97);
+    font-size:20px; /* Уменьшаем размер шрифта для мобильных устройств */
+}
+
+h6{
+    font-size:15px; /* Уменьшаем размер шрифта для мобильных устройств */
+}
+
+#anim{
+    height:210px; /* Уменьшаем высоту блока для мобильных устройств */
+}
+
+#polecane{
+    height:200px; /* Уменьшаем высоту блока для мобильных устройств */
+    width:1000px; /* Увеличиваем ширину блока для мобильных устройств */
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(174, 200, 236);
+    margin-top:40px; /* Уменьшаем отступ для мобильных устройств */
+    margin-left:20px; /* Уменьшаем отступ для мобильных устройств */
+}
+
+td{
+    background-color:rgb(174, 200, 236);
+    height:50px; /* Уменьшаем высоту ячейки для мобильных устройств */
+    width:200px; /* Уменьшаем ширину ячейки для мобильных устройств */
+    padding: 2px;
+    font-size:15px; /* Уменьшаем размер шрифта для мобильных устройств */
+    font-weight:400;
+    color:darkblue;
+    padding-top:2px;
+    border-radius:10px; /* Уменьшаем радиус закругления для мобильных устройств */
+}
+#td{
+    background-color:rgb(174, 200, 236);
+    height:50px; /* Уменьшаем высоту ячейки для мобильных устройств */
+    width:190px; /* Уменьшаем ширину ячейки для мобильных устройств */
+    padding: 2px;
+    font-size:15px; /* Уменьшаем размер шрифта для мобильных устройств */
+    font-weight:400;
+    color:darkblue;
+    padding-top:2px;
+  
+    border-radius:10px; /* Уменьшаем радиус закругления для мобильных устройств */
+}
+
+
+a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+
+#a{
+    transition: 0.4s;
+}
+
+#a:hover{
+    color:darkblue;
+    font-weight: bold;
+}
+
+table{
+    border-spacing: 10px;
+    margin-left:16px;
+    /* Уменьшаем расстояние между ячейками для мобильных устройств */
+}
+
+.buttPolec{
+    height:30px; /* Уменьшаем высоту кнопки для мобильных устройств */
+    width:50px; /* Уменьшаем ширину кнопки для мобильных устройств */
+    border: 2px solid rgba(255, 255, 255, 0);
+    background-color:rgb(6, 22, 115);
+    border-radius:6px; /* Уменьшаем радиус закругления для мобильных устройств */
+    text-align:center;
+    margin:5px 5px 5px 10px;
+    
+    font-size:10px; /* Уменьшаем размер шрифта для мобильных устройств */
+    transition: 0.3s;
+}
+
+.buttPolec:hover{
+    background-color: white;
+    color:darkblue;
+}
+
+#BP1{
+    margin-left:5px; /* Уменьшаем отступ для мобильных устройств */
+}
+
+#BP2{
+    margin-left:10px; /* Уменьшаем отступ для мобильных устройств */
+}
+
+h1{
+    margin:2px;
+    font-size:20px; /* Уменьшаем отступ для мобильных устройств */
+    color:darkblue;
+}
+
+}

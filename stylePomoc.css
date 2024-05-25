@@ -1,0 +1,471 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+}
+
+
+#upPart{
+  display:flex;
+  background-color: rgb(174, 200, 236);
+  height:50px;
+  padding-left:40px;
+}
+.up{
+  margin-right:90px;
+  text-decoration: none;
+  margin-top:5px;
+  font-size: 30px;
+  display:flex;
+  color:darkblue;
+  font-weight: 100;
+}
+h1{
+  color:darkblue;
+  margin-top:100px;
+  text-align: center;
+}
+#konto{
+color: white;
+}
+#logo{
+color: white;
+margin-left:20px; 
+margin-right: 70px;
+font-weight: 700;
+}
+#google{
+height:45px;
+width:150px;
+border-radius:10%;
+border: 1px solid white;
+}
+#app{
+height:44px;
+width:150px;
+border: 1.3px solid rgb(144, 141, 141);
+border-radius:6.5px;
+}
+a{
+text-decoration: none;
+color: white;
+}
+#downPart{
+  margin-top: 20px;
+width: 100%;
+background-color:rgb(12, 4, 60); 
+height:330px;
+}
+h4{
+  color:white;
+  margin-left: 10px;
+  
+  }
+#applikacje{
+padding-left:5px;
+}
+#logos{
+display:flex;
+}
+p{
+color:white;
+margin-top: -24px;
+margin-left:3px;
+}
+.img{
+border-radius:50%;
+margin-left:5px;
+position:relative;
+transition-duration: 2s;
+transition: ease-in;
+height:50px;
+width:40px;
+
+}
+.img:hover{
+height:45px;
+width:45px;
+margin-top:-5px;
+}
+#mainPart{
+width:90%;
+margin-left:80px;
+text-align:center;
+}
+#inpPomoc{
+  margin-left:10px;
+  margin-bottom:-160px;
+  border:1px solid darkblue;
+  border-radius:3px;
+}
+#img{
+  
+  float:left;
+  width:240px;
+  height:240px;
+  border-radius:200px;
+  margin-right: 20px;
+  transition: 0.3s ;
+}
+#img:hover{
+  border: 8px solid rgb(174, 200, 236);
+}
+.img2{
+  
+  float:right;
+  width:240px;
+  height:240px;
+  border-radius:200px;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+.img2:hover{
+  border: 8px solid rgb(174, 200, 236);
+}
+li{
+  float:left;
+  margin-left:20px;
+}
+.first{
+  margin-top:30px;
+}
+.second{
+  margin-top:120px;
+  margin-bottom:50px;
+}
+.p4{
+  color:darkblue;
+  float:left;
+  font-size:30px;
+}
+.p4Second{
+  color:darkblue;
+  float:right;
+  font-size:30px;
+}
+h3{
+  
+  text-align: left;
+}
+.h3second{
+  
+  text-align: right;
+}
+
+
+.h4{
+  color: blue;
+  float:right;
+  margin-top:-20;
+}
+#formPomoc{
+background-color: rgb(174, 200, 236);
+margin-top: 20px;
+margin-left: 340px;
+padding: 20px;
+border: 3px solid rgb(255, 255, 255);
+border-radius: 20px;
+width: 400px;
+font-size: 30px;
+color: white;
+margin-bottom:20px;
+
+}
+#inputPomoc{
+  color: rgb(255, 255, 255);
+  background-color:darkblue;
+  border:1px solid white;
+  padding:7px;
+  height:40px;
+  width:160px;
+  font-weight: bold;
+  border-radius: 20px;
+  }
+  textarea{
+    margin-top:20px;
+    height:100px;
+    width:250px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    *{
+      margin:0px;
+      padding:0px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      
+  }
+  
+  
+  #upPart{
+      display:flex;
+      background-color: rgb(174, 200, 236);
+      height:30px;
+      padding-left:5px; /* Уменьшаем отступ для мобильных устройств */
+  }
+  
+  .up{
+      margin-right:2px; /* Уменьшаем отступ для мобильных устройств */
+      text-decoration: none;
+      margin-top:5px;
+      font-size: 18px; /* Уменьшаем размер шрифта для мобильных устройств */
+      display:flex;
+      color:darkblue;
+      font-weight: 100;
+      margin-left:15px;
+  }
+  
+  #konto{
+      color: white;
+  }
+  
+  #logo{
+      color: white;
+      margin-left:2px;/* Уменьшаем отступ для мобильных устройств */
+      font-weight: 700;
+      margin-right:3px;
+  }
+  
+  #google{
+      height:35px; /* Уменьшаем высоту кнопки для мобильных устройств */
+      width:100px; /* Уменьшаем ширину кнопки для мобильных устройств */
+      border-radius:5%; /* Уменьшаем радиус закругления для мобильных устройств */
+      border: 1px solid white;
+  }
+  
+  #app{
+      height:35px; /* Уменьшаем высоту кнопки для мобильных устройств */
+      width:100px; /* Уменьшаем ширину кнопки для мобильных устройств */
+      border: 1px solid rgb(144, 141, 141);
+      border-radius:6.5px;
+  }
+
+  #downPart{
+      width: 100%;
+      background-color:rgb(12, 4, 60); 
+      height:170px; /* Уменьшаем высоту для мобильных устройств */
+  }
+  
+  #iframes{
+      margin-right: 50px; /* Уменьшаем отступ для мобильных устройств */
+  }
+  
+  h4{
+      color:white;
+
+      margin-left: 10px;
+  }
+  li{
+    float:left;
+    margin-left:30px;
+    font-size:10px;
+
+  }
+  .p4Second{
+
+    color:darkblue;
+    float:right;
+    font-size:2px;
+  }
+  .h3second{
+    font-size:12px;
+    text-align: right;
+  }
+  .h3first{
+    margin-top:2px;
+    font-size:10px;
+    text-align: left;
+  }
+  .img2{
+    float:right;
+    width:130px;
+    height:130px;
+    border-radius:50px;
+    margin: 7px 2px 0px 5px;
+    transition: 0.3s ;
+  }
+  .img2:hover{
+    border: 4px solid rgb(174, 200, 236);
+  }
+  ul{
+    margin-left:5px;
+    float:left;
+    width:490px;
+    height:70px;
+  }
+ 
+  #applikacje{
+      padding-left:5px;
+      width:80%; /* Увеличиваем ширину блока для мобильных устройств */
+  }
+  
+  #logos{
+      display:flex;
+  }
+  
+  p{
+      color:white;
+      margin-top: -24px;
+      margin-left:3px;
+  }
+  
+  .img{
+      border-radius:50%;
+      margin-left:5px;
+      position:relative;
+      transition-duration: 2s;
+      transition: ease-in;
+      height:30px; /* Уменьшаем высоту изображения для мобильных устройств */
+      width:30px; /* Уменьшаем ширину изображения для мобильных устройств */
+  }
+  
+  .img:hover{
+      height:35px; /* Увеличиваем высоту при наведении для мобильных устройств */
+      width:35px; /* Увеличиваем ширину при наведении для мобильных устройств */
+      margin-top:-5px;
+  }
+  
+  #mainPart{
+      width:98%;
+      margin-left:3px; /* Уменьшаем отступ для мобильных устройств */
+      text-align:center;
+      margin-bottom:20px;
+  }
+
+  
+  h6{
+      padding: 0px 15px 0px 15px; /* Уменьшаем отступы для мобильных устройств */
+      color:rgb(0, 0, 0);
+  }
+  
+  h5{
+      color:rgb(2, 2, 97);
+      font-size:20px; /* Уменьшаем размер шрифта для мобильных устройств */
+  }
+  
+  h6{
+      font-size:15px; /* Уменьшаем размер шрифта для мобильных устройств */
+  }
+
+
+  
+  
+  a{
+      text-decoration:none;
+      color:rgb(255, 255, 255);
+  }
+  
+  #a{
+      transition: 0.4s;
+  }
+  
+  #a:hover{
+      color:darkblue;
+      font-weight: bold;
+  }
+  
+  
+  h1{
+      text-align: center;
+      padding-left:100px;
+      width:300px;
+      font-size:20px; /* Уменьшаем отступ для мобильных устройств */
+      color:darkblue;
+  }
+ 
+
+
+
+
+  #inpPomoc{
+    margin-left:10px;
+    margin-bottom:-160px;
+    border:1px solid darkblue;
+    border-radius:3px;
+  }
+  #img{
+    
+    float:left;
+    width:130px;
+    height:130px;
+    border-radius:50px;
+    margin: 6px;
+    transition: 0.3s ;
+  }
+  
+  #img:hover{
+    border: 4px solid rgb(174, 200, 236);
+  }
+  
+  li{
+    float:left;
+    margin-left:20px;
+  }
+  .first{
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .second{
+    margin-top:10px;
+    margin-bottom:20px;
+  }
+  .p4{
+    color:darkblue;
+    font-size:20px;
+    float:left;
+  }
+  .p44{
+    color:darkblue;
+    font-size:12px;
+    float:left;
+  }
+  .p4Second{
+    color:darkblue;
+    float:right;
+    font-size:15px;
+  }
+  h3{
+    font-size:15px;
+    text-align: left;
+  }
+  .h3second{
+    
+    text-align: right;
+  }
+  
+  
+  .h4{
+    color: blue;
+    float:right;
+    margin-top:-20;
+  }
+  #formPomoc{
+  background-color: rgb(174, 200, 236);
+  margin: 20px 500px 20px 20px;
+  padding: 10px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 400px;
+  font-size: 30px;
+  color: white;
+  
+  
+  }
+  #inputPomoc{
+    color: rgb(255, 255, 255);
+    background-color:darkblue;
+    border:1px solid white;
+    padding:7px;
+    height:40px;
+    width:160px;
+    font-weight: bold;
+    border-radius: 20px;
+    }
+    textarea{
+      margin-top:20px;
+      height:100px;
+      width:250px;
+    }
+  }
+ 

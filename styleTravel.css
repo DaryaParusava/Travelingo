@@ -1,0 +1,293 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+}
+
+img{
+background-color: rgb(174, 200, 236);
+}
+#upPart{
+  display:flex;
+  background-color: rgb(174, 200, 236);
+  height:50px;
+  padding-left:40px;
+}
+.up{
+  margin-right:90px;
+  text-decoration: none;
+  margin-top:5px;
+  font-size: 30px;
+  display:flex;
+  color:darkblue;
+  font-weight: 100;
+}
+#konto{
+color: white;
+}
+#logo{
+color: white;
+margin-left:20px; 
+margin-right: 70px;
+font-weight: 700;
+}
+#google{
+height:45px;
+width:150px;
+border-radius:10%;
+border: 1px solid white;
+}
+#app{
+height:44px;
+width:150px;
+border: 1.3px solid rgb(144, 141, 141);
+border-radius:6.5px;
+}
+
+#downPart{
+width: 100%;
+background-color:rgb(12, 4, 60); 
+height:330px;
+}
+#iframes{
+margin-right: 200px;
+}
+h4{
+color:white;
+margin-left: 10px;
+
+}
+#applikacje{
+padding-left:5px;
+}
+#logos{
+display:flex;
+}
+p{
+color:white;
+margin-top: -24px;
+margin-left:3px;
+}
+.img{
+border-radius:50%;
+margin-left:5px;
+position:relative;
+transition-duration: 2s;
+transition: ease-in;
+height:40px;
+width:40px;
+
+}
+#work{
+  width:100%;
+  height:500px;
+  
+}
+.img:hover{
+height:45px;
+width:45px;
+margin-top:-5px;
+}
+#mainPart{
+width:90%;
+margin-left:80px;
+text-align:center;
+margin-bottom:40px;
+}
+
+#inpPomoc{
+  margin-left:10px;
+  margin-bottom:-160px;
+  border:1px solid darkblue;
+  border-radius:3px;
+}
+option{
+  background-color: darkblue;
+  color: white;
+  font-size: 15px;
+}
+select{
+  margin-top:20px;
+  background-color: darkblue;
+  color: white;
+  padding:2px;
+  border-radius: 4px;
+}
+#text{
+margin-top:30px;
+}
+h6{
+padding: 0px 30px 0px 30px;
+color:rgb(0, 0, 0);
+}
+h5{
+color:rgb(2, 2, 97);
+font-size:25px;
+}
+h6{
+font-size:18px;
+}
+
+a{
+text-decoration:none;
+color:rgb(255, 255, 255);
+}
+#href{
+  color:darkblue;
+}
+#formPomoc{
+  background-color: rgb(174, 200, 236);
+  margin-top: 40px;
+  margin-left: 340px;
+  padding: 20px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 400px;
+  font-size: 30px;
+  color: white;
+  margin-bottom:20px;
+  
+  }
+  #inputPomoc{
+    color: rgb(255, 255, 255);
+    background-color:darkblue;
+    border:1px solid white;
+    padding:7px;
+    height:40px;
+    width:160px;
+    font-weight: bold;
+    border-radius: 20px;
+    }
+    h1{
+      color:darkblue;
+      font-size:40px;
+      margin:20px;
+    }
+    h2{
+      color:white;
+      background-color: rgb(174, 200, 236);
+      border-radius: 20px;
+      padding:10px;
+      margin: 20px;
+    }
+    h3{
+      transition: 0.3s;
+    }
+    h3:hover{
+      color:darkblue;
+      font-size:20px;
+
+    }
+    @media only screen and (max-width: 600px) {
+      *{
+        margin:0px;
+        padding:0px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        
+    }
+    #hrefFam{
+      color:darkblue;
+    }
+    
+    #upPart{
+        display:flex;
+        background-color: rgb(174, 200, 236);
+        height:30px;
+        padding-left:5px; /* Уменьшаем отступ для мобильных устройств */
+    }
+    
+    .up{
+        margin-right:2px; /* Уменьшаем отступ для мобильных устройств */
+        text-decoration: none;
+        margin-top:5px;
+        font-size: 18px; /* Уменьшаем размер шрифта для мобильных устройств */
+        display:flex;
+        color:darkblue;
+        font-weight: 100;
+        margin-left:15px;
+    }
+    #logo{
+      color: white;
+      margin-left:2px;/* Уменьшаем отступ для мобильных устройств */
+      font-weight: 700;
+      margin-right:3px;
+  }
+  
+  #google{
+      height:35px; /* Уменьшаем высоту кнопки для мобильных устройств */
+      width:100px; /* Уменьшаем ширину кнопки для мобильных устройств */
+      border-radius:5%; /* Уменьшаем радиус закругления для мобильных устройств */
+      border: 1px solid white;
+  }
+  
+  #app{
+      height:35px; /* Уменьшаем высоту кнопки для мобильных устройств */
+      width:100px; /* Уменьшаем ширину кнопки для мобильных устройств */
+      border: 1px solid rgb(144, 141, 141);
+      border-radius:6.5px;
+  }
+
+  #downPart{
+      width: 100%;
+      background-color:rgb(12, 4, 60); 
+      height:170px; /* Уменьшаем высоту для мобильных устройств */
+  }
+  #work{
+    height:230px;
+    width:530px;
+    float:left;
+    margin-left:-90px;
+  }
+  h1{
+    font-size:25px;
+    text-align:left;
+    margin-left:-10px;
+  }
+  #CV{
+    font-size:25px;
+    text-align:left;
+    margin-left:20px;
+  }
+  h2{
+    font-size:20px;
+    float:left;
+    width:100%;
+    margin-left:-65px;
+  }
+  h3{
+    font-size:15px;
+    float:left;
+    width:100%;
+    margin-left:-55px;
+  }
+  #countdown{
+    font-size:19px;
+    font-weight: bold;
+    float:left;
+    width:100%;
+    margin-left:-28px;
+  }
+  #formPomoc{
+    background-color: rgb(174, 200, 236);
+    margin: 20px 500px 20px -50px;
+    padding: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 400px;
+    font-size: 30px;
+    color: white;
+    }
+    h3{
+      transition: 0.3s;
+    }
+    h3:hover{
+      color:darkblue;
+      font-size:19px;
+
+    }
+    #pBLAD{
+     text-align:left;
+     margin-left:-100px;
+    }
+}  
