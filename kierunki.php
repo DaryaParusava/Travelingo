@@ -6,8 +6,8 @@ $conn = new mysqli($host, $db_user, $db_password, $db_name);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['id'])) {
     $ticket_id = $_POST['id'];
-    $_SESSION['ticket_id'] = $ticket_id; // Сохраняем айди билета в сессию
-    header("Location: konto.php"); // Перенаправляем пользователя на страницу для покупки билета
+    $_SESSION['ticket_id'] = $ticket_id; 
+    header("Location: konto.php"); 
     exit();
 }
 ?>
