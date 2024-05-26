@@ -1,5 +1,4 @@
 <?php
-// Establish connection to your database
 require_once "connect.php";
 $polaczenie = new mysqli($host, $db_user, $db_password, $db_name);
 
@@ -8,16 +7,12 @@ if ($polaczenie->connect_error) {
     die("Connection failed: " . $polaczenie->connect_error);
 }
 
-// Zmienna przechowująca wiadomość o sukcesie lub błędzie
 $message = "";
 
-// Sprawdzenie, czy formularz został wysłany
 if ($_SERVER["REQUEST_METHOD"] == "POST") {  
-    // Sprawdzamy, czy wszystkie pola formularza zostały wypełnione
     if (empty($_POST['email']) || empty($_POST['skills']) || empty($_POST['experience']) || empty($_POST['age']) || empty($_POST['english_level']) || empty($_POST['education'])) {
         $message = "Proszę wypełnić wszystkie pola formularza.";
     } else {
-        // Получаем данные из формы
         $email = '';
         if (isset($_POST['email'])) {
             $email = $polaczenie->real_escape_string($_POST['email']);
@@ -71,7 +66,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-// Zamykamy połączenie z bazą danych
 $polaczenie->close();
 ?>
 
